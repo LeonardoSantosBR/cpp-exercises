@@ -13,8 +13,8 @@ int main()
 
        for(int index = 0; index < arr_length; index++){
         if(arr[index] % count == 0){
-            arr[index] /= count;
-            finished = false;
+          arr[index] /= count;
+          finished = false;
         }
        }
 
