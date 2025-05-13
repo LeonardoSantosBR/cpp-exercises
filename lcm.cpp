@@ -1,12 +1,13 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main()
 {
-  int arr[2] = {30, 60};
-  int arr_length = sizeof(arr) / sizeof(arr[0]);
+  vector<int> arr = {30,60};
+  int arr_length = arr.size();
   int count = 2;
+  int lcm = 1;
 
   while (true)
   {
@@ -27,7 +28,7 @@ int main()
     }
     else
     {
-      cout << count << " ";
+      lcm *= count;
       count = 2;
     }
 
