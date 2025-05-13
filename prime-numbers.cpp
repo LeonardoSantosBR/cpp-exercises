@@ -2,9 +2,11 @@
 
 using namespace std;
 
-bool checkIsPrime(int numberToCheck){
-    for (int i = 2; i < numberToCheck; i++) {
-         if (numberToCheck % i == 0)
+bool checkIsPrime(int numberToCheck)
+{
+    for (int i = 2; i < numberToCheck; i++)
+    {
+        if (numberToCheck % i == 0)
             return false;
     }
 
@@ -16,9 +18,11 @@ int main()
     int N;
     cin >> N;
 
-    for(int numberToCheck = 2; numberToCheck < N; numberToCheck++){
+    for (int numberToCheck = 2; numberToCheck < N; numberToCheck++)
+    {
         bool isPrime = checkIsPrime(numberToCheck);
-        if(isPrime){
+        if (isPrime)
+        {
             cout << numberToCheck << " ";
         }
     }
