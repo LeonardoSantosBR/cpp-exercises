@@ -13,7 +13,7 @@ int main()
   {
     exp *= ns[i + 1];
 
-    if (i == vtSize)
+    if (i + 1 == vtSize)
       ns = {ns[0], exp};
   }
 
