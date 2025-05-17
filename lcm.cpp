@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+  //mmc
   vector<int> arr = {30,60};
   int arr_length = arr.size();
   int count = 2;

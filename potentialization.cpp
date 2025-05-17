@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+  //potenciaçao
   int result = 1;
   vector<int> N = {9, 3};
 

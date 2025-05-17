@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
+  //soma fraçoes
   int num1, den1, num2, den2;
-
   cout << "Enter numerator of first fraction" << endl;
   cin >> num1;
 

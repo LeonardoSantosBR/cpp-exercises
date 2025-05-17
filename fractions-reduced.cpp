@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    //redução de fraçoes
     vector<int> fraction = {3, 15};
 
     while (true)

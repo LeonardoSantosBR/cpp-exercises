@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+  //mdc
   int result = 1;
   int count = 2;
   vector<int> ns = {30, 60};

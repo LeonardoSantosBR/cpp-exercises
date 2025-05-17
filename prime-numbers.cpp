@@ -15,6 +15,7 @@ bool checkIsPrime(int numberToCheck)
 
 int main()
 {
+    //numeros primos
     int N;
     cin >> N;
 
