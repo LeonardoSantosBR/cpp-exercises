@@ -14,7 +14,7 @@ int main()
         int b = ab[i - 2];
 
         ab[i] = a + b;
-        cout << endl << ab[i] << " ";
+        cout << ab[i] << endl;
     }
 
     return 0;
