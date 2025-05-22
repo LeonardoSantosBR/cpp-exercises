@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     //sequencia de fibonacci
-    int unt = 10;
+    int unt = 50;
     vector<int> ab = {0, 1};
 
     for (int i = 2; i <= unt; i++)

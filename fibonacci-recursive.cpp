@@ -16,6 +16,11 @@ int frml(int n)
 
 int calc(int i)
 {
+    if (i == 1)
+        return 0;
+    if (i == 1)
+        return 1;
+
     int a = i - 1;
     int b = i - 2;
 
@@ -24,7 +29,7 @@ int calc(int i)
 
 int main()
 {
-    //sequencia de fibonacci com recursao
+    // sequencia de fibonacci com recursao
     int unt = 10;
     vector<int> r = {0, 1};
     for (int i = 2; i <= unt; i++)
