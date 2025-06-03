@@ -25,6 +25,6 @@ int main()
             count += romanNumerals[s[i]];
         }
     }
-    return count;
+    count << count;
     return 0;
 }
