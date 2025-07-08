@@ -11,7 +11,15 @@ struct ListNode
 
 int main()
 {
-    ListNode *node = new ListNode(10);
-    cout << "Valor do nó: " << node->val << endl;
+    ListNode* firstNode = new ListNode(10);
+    ListNode* secondNode = new ListNode(5);
+    ListNode* thirdNode = new ListNode(23);
+    ListNode* fourthNode = new ListNode(5);
+
+    firstNode->next = secondNode;
+    secondNode->next = thirdNode;
+    thirdNode->next = fourthNode;
+    fourthNode->next= firstNode;
+    
     return 0;
 }
