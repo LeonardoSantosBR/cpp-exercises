@@ -7,22 +7,18 @@ stack::stack()
     size = 0;
     estructure = new type_item[max_itens];
 }
-
 stack::~stack()
 {
     delete[] estructure;
 }
-
 bool stack::is_full()
 {
     return (size == max_itens);
 }
-
 bool stack::is_empty()
 {
     return (size == 0);
 }
-
 void stack::insert(type_item item)
 {
     if (!is_full())
@@ -33,10 +29,9 @@ void stack::insert(type_item item)
     }
     else
     {
-        cout << "The Stack is Full.";
+        cout << "The Stack is Full.\n";
     }
 }
-
 stack::remove()
 {
     if (!is_empty())
@@ -46,16 +41,14 @@ stack::remove()
     }
     else
     {
-        cout << "The Stack is Empty.";
+        cout << "The Stack is Empty.\n";
         return 0;
     }
 }
-
 stack::current_quantity()
 {
     return size;
 }
-
 void stack::print()
 {
     cout << "Stack: [";
