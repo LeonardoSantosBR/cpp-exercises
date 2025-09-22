@@ -16,11 +16,6 @@ int frml(int n)
 
 int calc(int i)
 {
-    if (i == 1)
-        return 0;
-    if (i == 1)
-        return 1;
-
     int a = i - 1;
     int b = i - 2;
 
