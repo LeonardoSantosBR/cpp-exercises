@@ -10,7 +10,6 @@ int frml(int n)
         return 0;
     if (n == 1)
         return 1;
-
     return frml(n - 1) + frml(n - 2);
 }
 
@@ -18,7 +17,6 @@ int calc(int i)
 {
     int a = i - 1;
     int b = i - 2;
-
     return frml(a) + frml(b);
 }
 
@@ -32,6 +30,5 @@ int main()
         r[i] = calc(i);
         cout << r[i] << endl;
     }
-
     return 0;
 }
