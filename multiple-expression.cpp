@@ -2,22 +2,17 @@
 #include <stack>
 #include <vector>
 
-using namespace std;
-
-int main()
-{
+int main(){
     std::stack<char> tmpst;
-    std::vector<char> expression = {'(', '(', ')', '(', ')', ')', '(', ')', '('};
+    std::vector<char> expression = {'[', '{', '(', ')', '}', ']'};
     for (int i = 0; i < expression.size(); i++)
     {
-        if (expression[i] == '(')
-        {
+        if(expression[i] == '[' || expression[i] == '{' || expression[i] == '('){
             tmpst.push(expression[i]);
-        }
-        else
-        {
+        }else{
             tmpst.pop();
-        };
+        }
     };
+
     return tmpst.empty();
 }
